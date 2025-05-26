@@ -15,9 +15,9 @@
             <h1>Indo as compras?</h1>
             <p>Adicione aqui todos os itens que deseja comprar, assim, não se esquecerá de mais nada</p>
             <input type="text" placeholder="Nome do item" id="input">
-            <button id="botao" onclick="adicionaritem()">Adicionar</button>
+            <button id="novoitem" onclick="adicionaritem()">Adicionar</button>
             <button id="botao" onclick="salvarLista()">Salvar lista</button>
-            <button id="botao" onclick="carregarLista()">Carregar última lista</button>
+            <button id="botao" onclick="carregarLista()">Recarregar última lista</button>
         </div>
         <div id="list">
             <br>
@@ -26,6 +26,11 @@
             </ul>
         </div>
     </div>
+    <div id="instruction">
+            <p>Para usar nossa lista de compras da melhor forma é nescessário salvar sua lista sempre que concluida, ou seguir os seguintes passos:
+                <br><br><p id="inst">🔃1. Recarregar última lista <br>✍2. Faça as alterações nescessárias <br>✅3. Salve as alterações</p>
+            </p>
+        </div>
 </div>
 </body>
 </html>

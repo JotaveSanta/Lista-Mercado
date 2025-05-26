@@ -71,4 +71,16 @@ function carregarLista() {
         });
     }
 }
-
+function menuShow() {
+ const conteudo = document.getElementById('sidebar');
+    if (conteudo.style.display === 'none') {
+      conteudo.style.display = 'block';
+    } else {
+      conteudo.style.display = 'none';
+    }
+  }
+function closemenu(){
+  const conteudo = document.getElementById('sidebar');
+  if(conteudo.style.display === 'block'){
+  conteudo.style.display = 'none';}
+}
