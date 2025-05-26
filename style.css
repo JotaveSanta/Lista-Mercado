@@ -22,13 +22,15 @@ body{
 }
 #main{
     background-color: white;
-    width: 60vh;
+    width: 40vh;
     height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 3vh;
     border-radius: 10px;
+    position: absolute;
+    top: 40vh;
 }
 #list{
     text-align: left;
@@ -85,8 +87,11 @@ button:active{
     opacity: 0.5;
 }
 #instruction{
+    display: absolute;
+    position: absolute;
+    top: 1vh;
     z-index: 1;
-    width: 50vh;
+    width: 40vh;
     padding: 1vh;
     background-color:azure;
     border-radius: 5px;
