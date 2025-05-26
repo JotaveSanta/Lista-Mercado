@@ -81,3 +81,6 @@ body{
 h1{
     color: rgb(0, 132, 255)
 }
+button:active{
+    opacity: 0.5;
+}
